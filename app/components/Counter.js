@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 
-export default function Counter() {
+export default function Counter({ user }) {
   const [count, setCount] = useState(0);
 
   function incr() {
@@ -13,6 +13,7 @@ export default function Counter() {
 
   return (
     <div>
+      <p>There are {user.length} users</p>
       <button onClick={incr}>+</button>
       <p>{count}</p>
       <button onClick={dec}>-</button>

@@ -20,7 +20,7 @@ export default async function Page() {
         ))}
       </ul>
 
-      <Counter />
+      <Counter user={data} />
     </div>
   );
 }
