@@ -1,5 +1,5 @@
 import Link from 'next/link';
-// import ReservationCard from '@/app/components/ReservationCard';
+import ReservationCard from '@/app/_components/ReservationCard';
 
 export default function Page() {
   // CHANGE
